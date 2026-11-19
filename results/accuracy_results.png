@@ -1,0 +1,23 @@
+import matplotlib.pyplot as plt
+
+labels = ["Turkish", "English", "Overall"]
+scores = [100, 0, 50]
+
+plt.figure(figsize=(8,5))
+bars = plt.bar(labels, scores)
+
+plt.ylim(0,100)
+plt.ylabel("Accuracy (%)")
+plt.title("Language Identification Accuracy")
+
+for bar in bars:
+    height = bar.get_height()
+    plt.text(
+        bar.get_x() + bar.get_width()/2,
+        height + 2,
+        f"{height:.0f}%",
+        ha="center"
+    )
+
+plt.savefig("accuracy_results.png", dpi=300, bbox_inches="tight")
+plt.show()
