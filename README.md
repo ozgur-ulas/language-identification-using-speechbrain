@@ -1,2 +1,23 @@
-# language-identification-using-speechbrain
-The purpose is evaluate the performance of a pre-trained language identification model. The model will classify each audio recording according to the spoken language, and the final performance will be measured using classification accuracy.
+# Language Identification using SpeechBrain
+
+This project evaluates the SpeechBrain VoxLingua107 ECAPA-TDNN model on Turkish and English speech recordings.
+
+## Technologies
+
+- Python
+- SpeechBrain
+- PyTorch
+- Scikit-Learn
+- Pandas
+- Matplotlib
+
+## Dataset
+
+- 10 Turkish voice recordings
+- 10 English voice recordings
+
+## Evaluation
+
+- Classification Accuracy
+- Classification Report
+- Confusion Matrix
