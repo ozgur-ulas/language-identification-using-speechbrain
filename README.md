@@ -22,7 +22,13 @@ This project evaluates the SpeechBrain VoxLingua107 ECAPA-TDNN model on Turkish 
 - Classification Report
 - Confusion Matrix
 
+## Conclusion
 
+Overall Accuracy: 50%
+Turkish Accuracy: 100%
+English Accuracy: 0%
+Total Samples: 20
+Model: SpeechBrain VoxLingua107 ECAPA-TDNN
 
 ## Results - 1
 <img width="665" height="737" alt="image" src="https://github.com/user-attachments/assets/da1c610d-a3b9-4ed4-b6f1-17f0eda35306" />
