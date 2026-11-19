@@ -1,0 +1,13 @@
+- 10 Turkish recordings → 10 correctly identified
+- 10 English recordings → 0 correctly identified
+
+English recordings misclassified as:
+Turkish
+Bulgarian
+Belarusian
+Tajik
+Bengali
+Latin
+
+
+"The model performed exceptionally well on Turkish speech but struggled with English recordings produced by the same speaker."
