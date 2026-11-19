@@ -21,3 +21,8 @@ for bar in bars:
 
 plt.savefig("accuracy_results.png", dpi=300, bbox_inches="tight")
 plt.show()
+
+
+Turkish   ██████████ 100%
+English   ░░░░░░░░░░   0%
+Overall   █████░░░░░  50%
